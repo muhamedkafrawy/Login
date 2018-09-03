@@ -1,8 +1,8 @@
 <?php 
 
-$dbServername="localhost";
-$dbUsername="root";
-$dbPassword="";
-$dbName= "firsttaskloginsystem";
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "firsttaskloginsystem";
 
-$conn=mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
