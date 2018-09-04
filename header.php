@@ -18,11 +18,11 @@ session_start();
 			<div class = "nav-login">
 				<?php
 					if (isset($_SESSION['u_id'])) {
-						echo '<form action="includes/logout.inc.php" method="POST">
+						echo '<form action="includes/logoutt.php" method="POST">
 								<button type="submit" name="submit">Logout</button>
 								</form>';
 					}else {
-						echo '<form action="includes/login.inc.php" method="POST">
+						echo '<form action="includes/loginn.php" method="POST">
 								<input type = "text" name="uid" placeholder="Insert Your Username">
 								<input type = "password" name="pwd" placeholder="Insert Your password">
 								<button type = "submit" name="submit">Login</button>
